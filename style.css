@@ -1,0 +1,95 @@
+body{
+	background-color: red;
+	color:black;
+	font-family: 'Montserrat+Subrayada', cursive;
+	letter-spacing: 2px;
+	text-shadow: 0px 0px 10px #555;
+}
+div {
+    display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-bottom: 5px;
+   	width: 70%;
+   	text-align: center;
+   	padding: 5px;
+   	background-color: orange;
+   	box-shadow:  1px 1px 10px black;
+}
+h1,h2 {
+	margin-left: auto;
+   	margin-right: auto;
+	width: 30%;
+	text-shadow: 2px 2px #000;
+	font-family: 'Monoton', cursive;
+	letter-spacing: 10px;
+	color: red;
+	
+}
+h3{
+	font-family: 'Neucha', cursive;
+}
+p {
+	border-spacing: 0px;
+}
+
+select {
+	background-color: #f30;
+	width: 10%;
+	padding: 5px;
+  		font-size: 12px;
+  		line-height: 1;
+  		border: 0;
+  		border-radius: 5px;
+  		height: 3em;
+  		color: #fff;
+  		font-family: 'Neucha', cursive;
+  		letter-spacing: 2px;
+}
+button {
+	width: 20%;
+	font-family: 'Neucha', cursive;
+	letter-spacing: 1.5em;
+	height: 2em;
+	background-color: #f30;
+	margin-top: 1%;
+	text-shadow: 1px 1px #ccc;
+	color: #fff;
+}
+.head{
+	margin-bottom: 0px;
+	width: 95%;
+	background-color: grey;
+	font-family: 'Monoton', cursive;
+	letter-spacing: 10px;
+	color: red;
+}
+.opis {
+	font-size: 15px;
+	width: 95%;
+	padding: 5px;
+}
+.poslovice{
+	width: 80%;
+}
+.ret {
+	width: auto;
+	letter-spacing: 8px;
+	border: 2px solid #ff0;
+	box-shadow:  1px 1px 10px #f30;
+}
+.ext{
+	width: 80%;
+}
+.koment{
+	color: #f00;
+	padding-left: 30%;
+	padding-right: 30%;		
+}
+.cont{
+	width: 95%;
+}
+.special{
+	width: 30%;
+	color: red;
+}

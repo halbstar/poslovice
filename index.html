@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>Događaj nad listom elemenata</title>
+	<script type="text/javascript" src="pos.js"></script>
+</head>
+<body onload=toDiv()>
+	<div class="head"><h2>interaktivna igra</h2><h1>složi narodnu poslovicu</h1></div>
+<div class="cont">
+	<div class="opis">
+		<h3>opis</h3>
+		<p>Pred vama se nalaze četiri narodne poslovice. <br>Doduše, pomalo na neobičan način. Reči su se potpuno ispremeštale...<br>
+			Pomozite nam da pravilno složimo sve poslovice, postavljajući reči u pravilan niz.</p>
+			<p class="koment">*Takođe, igru možete koristiti kao ljubitelji sinhroniciteta, za proricanje budućnosti, kao odgovor na životna pitanja... U tom slučaju neprekidno udarajte OSVEŽI dugme, i tumačite rečenice koje se pojavljuju</p>
+	</div>
+	<div id="poslovice" class="poslovice"><h3>odaberi reči</h3>
+		<form >
+			<script type="text/javascript">(ispis(pos))</script>
+			<br>
+			<button type="button" value="Osveži" onclick="reloadPage()">OSVEŽI</button><p class="koment">*koristi ovo dugme da ponovo započneš igru (za narednu poslovicu samo nastavi da menjaš reči:)</p>
+			
+		</form>
+	</div>
+	<div class="special">vaša poslovica je:</div>
+	<div id="ret" class="ret">
+	</div>
+	<div id="ext" class="ext">
+	</div>
+</div>
+</body>
+</html>
